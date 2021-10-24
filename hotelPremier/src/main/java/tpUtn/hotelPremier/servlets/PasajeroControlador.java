@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.LinkedList;
 import java.util.List;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -47,17 +48,22 @@ public class PasajeroControlador extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
+		System.out.println(request.getParameter("numeroDoc"));
 		String tipoDoc = request.getParameter("tipoDoc");
 		int numeroDoc = Integer.valueOf(request.getParameter("numeroDoc"));
 		String apellido = request.getParameter("apellido");
 		String nombre = request.getParameter("nombre");
+		String paginaRedireccion= "gestionarPasajero.jsp";
 		HttpSession sesion = null;
 		sesion = request.getSession();
-		sesion.setAttribute("tipoDocSesion", tipoDoc);
-		sesion.setAttribute("numeroDocSesion", numeroDoc);
-		sesion.setAttribute("apellidoSesion", apellido);
-		sesion.setAttribute("tipoDocSesion", tipoDoc);
+		sesion.setAttribute("tipoDoc", tipoDoc);
+		sesion.setAttribute("numeroDoc", numeroDoc);
+		sesion.setAttribute("apellido", apellido);
+		sesion.setAttribute("nombre", nombre);
+		
+		RequestDispatcher requestDispatcher = request.getRequestDispatcher(paginaRedireccion);
+		requestDispatcher.forward(request, response);
+		
 		
 	}
 

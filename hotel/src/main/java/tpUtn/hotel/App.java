@@ -53,6 +53,7 @@ insert into direccion (idDireccion, calle, numero, departamento, piso, localidad
 		pasajero.setPosIVA( "no se");
     	gestionarPasajero.darDeAltaPasajero(pasajero);
     	*/
+    	
     	for(Pasajero pas : gestionarPasajero.buscarPasajero("",0 , "","Carlos" ) ) {
 		System.out.println(pas);
 		}
