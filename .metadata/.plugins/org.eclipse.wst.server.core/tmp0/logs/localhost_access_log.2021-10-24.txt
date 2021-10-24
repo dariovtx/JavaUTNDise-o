@@ -1,0 +1,7 @@
+127.0.0.1 - - [24/Oct/2021:08:59:52 -0300] "GET / HTTP/1.1" 404 687
+0:0:0:0:0:0:0:1 - - [24/Oct/2021:08:59:53 -0300] "GET /hotelPremier/ HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [24/Oct/2021:09:00:06 -0300] "GET /hotelPremier/gestionarPasajero HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [24/Oct/2021:09:00:15 -0300] "GET /hotelPremier/gestionarPasajero.jsp HTTP/1.1" 200 628
+127.0.0.1 - - [24/Oct/2021:11:15:46 -0300] "GET / HTTP/1.1" 404 687
+0:0:0:0:0:0:0:1 - - [24/Oct/2021:11:15:47 -0300] "GET /hotelPremier/ HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [24/Oct/2021:11:16:01 -0300] "GET /hotelPremier/gestionarPasajero.jsp HTTP/1.1" 200 846

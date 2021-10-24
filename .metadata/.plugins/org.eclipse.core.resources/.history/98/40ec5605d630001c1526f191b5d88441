@@ -1,0 +1,13 @@
+package interfaces;
+
+public interface PasajeroDAO<P, I, D, N> {
+
+	boolean crearPasajero(P p);
+	boolean modificarPasajero(P p);
+	boolean borrarPasajero(P p);
+	boolean buscarPasajero(I i);
+	boolean crearDireccion(D d);
+	boolean buscarDireccion(D d);
+	boolean eliminarDireccion(D d);
+	
+}

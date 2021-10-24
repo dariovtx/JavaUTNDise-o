@@ -1,0 +1,18 @@
+package entidades;
+
+import java.util.Date;
+
+public class Factura {
+	private String numeroFactura;
+	private String mailEmpresa;
+	Direccion direccionEmpresa;
+	private Integer telefonoEmpresa;
+	private String condFiscEmpresa;
+	private Date fechaEmision;
+	private char tipoFactura;
+	private Float valorEstadia;
+	private Float iva;
+	private Float totalFinal;
+	
+	
+}

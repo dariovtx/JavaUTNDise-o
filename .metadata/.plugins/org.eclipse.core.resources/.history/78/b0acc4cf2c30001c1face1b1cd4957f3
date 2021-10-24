@@ -1,0 +1,11 @@
+package entidades;
+
+public class Direccion {
+	private Integer idDireccion;
+	private String calle;
+	private Integer numero;
+	private String departamento;
+	private Integer piso;
+	
+	
+}

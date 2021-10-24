@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
+    <fullyQualifiedTypeName name="entidades.NotaDeCredito"/>
+    <fullyQualifiedTypeName name="entidades.DetallePagoFactura"/>
+    <fullyQualifiedTypeName name="entidades.CantidadConsumo"/>
+    <fullyQualifiedTypeName name="entidades.ResponsableDePago"/>
+    <fullyQualifiedTypeName name="entidades.CantidadUsos"/>
+    <fullyQualifiedTypeName name="entidades.DetallePagoFrigobar"/>
+    <fullyQualifiedTypeName name="enumerados.nombreDivisaEnum"/>
+    <fullyQualifiedTypeName name="enumerados.NombreDivisaEnum"/>
+    <fullyQualifiedTypeName name="enumerados.MetodoPagoEnum"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.util.Properties"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="tpUtn.hotel.implementacion.ConexionDB"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="java.util.Objects"/>
+    <fullyQualifiedTypeName name="java.text.ParseException"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="tpUtn.hotel.entidades.Conserje"/>
+    <fullyQualifiedTypeName name="tpUtn.hotel.implementacion.PasajeroDAOImpl"/>
+    <fullyQualifiedTypeName name="tpUtn.hotel.gestionar.GestionarPasajero"/>
+    <fullyQualifiedTypeName name="tpUtn.hotel.entidades.Direccion"/>
+    <fullyQualifiedTypeName name="tpUtn.hotel.entidades.Localidad"/>
+    <fullyQualifiedTypeName name="tpUtn.hotel.entidades.Provincia"/>
+    <fullyQualifiedTypeName name="tpUtn.hotel.entidades.Pais"/>
+    <fullyQualifiedTypeName name="tpUtn.hotel.entidades.Pasajero"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="tpUtn.hotel.interfaces.Fechas"/>
+</qualifiedTypeNameHistroy>

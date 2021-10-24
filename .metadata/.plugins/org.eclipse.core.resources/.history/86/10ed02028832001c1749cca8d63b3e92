@@ -1,0 +1,15 @@
+package tpUtn.hotel.interfaces;
+
+public interface PasajeroDAO < P, I, D, N, S > {
+
+	boolean crearPasajero(P p);
+	boolean modificarPasajero(P p);
+	boolean borrarPasajero(P p);
+	P buscarPasajero(I i);
+	boolean crearDireccion(D d);
+	D buscarDireccion(D d);
+	boolean eliminarDireccion(D d);
+	S buscarPais(N n);
+	
+	
+}

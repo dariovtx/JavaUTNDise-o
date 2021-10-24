@@ -1,0 +1,18 @@
+package entidades;
+
+import java.util.List;
+
+public class DetallePagoFactura {
+
+	private Integer idDetallePagoFactura;
+	private String metodoDePago;
+	private Float monto;
+	private String nombreDivisa;
+	
+	List<DetallePagoFrigobar> listaDetallePagoFrigobar;
+	Tarjeta tarjeta;
+	Cheque cheque;
+	
+	
+	
+}

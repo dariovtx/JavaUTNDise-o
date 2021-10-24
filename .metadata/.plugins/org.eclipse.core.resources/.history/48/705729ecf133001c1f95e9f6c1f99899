@@ -1,0 +1,22 @@
+package tpUtn.hotel;
+
+import java.util.Objects;
+
+import tpUtn.hotel.entidades.Pasajero;
+import tpUtn.hotel.implementacion.PasajeroDAOImpl;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	PasajeroDAOImpl pasImp = new PasajeroDAOImpl();
+    	for(Pasajero alumno : pasImp.listar("DNI", 325468, "Perez", "Pedro") ) {
+			System.out.println(alumno);
+		}
+    	
+    }
+}

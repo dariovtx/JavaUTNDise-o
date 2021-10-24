@@ -1,0 +1,5 @@
+package tpUtn.hotel.interfaces;
+
+public interface Fechas {
+
+}

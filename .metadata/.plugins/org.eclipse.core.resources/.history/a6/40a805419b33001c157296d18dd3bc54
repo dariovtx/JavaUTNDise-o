@@ -1,0 +1,18 @@
+package tpUtn.hotel.interfaces;
+
+import java.util.List;
+
+public interface PasajeroDAO < P, D, S > {
+
+	//boolean crearPasajero(P p);
+	//boolean modificarPasajero(P p);
+	//boolean borrarPasajero(P p);
+	//P buscarPasajero(int id);
+	//boolean crearDireccion(D d);
+	D buscarDireccion(int d);
+	//boolean eliminarDireccion(D d);
+	S buscarPais(int id);
+	List<P> listar(String tipoDoc,int numeroDoc,String apellido,String nombre);
+	
+	
+}

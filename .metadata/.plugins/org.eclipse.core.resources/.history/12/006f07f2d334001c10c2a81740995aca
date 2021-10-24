@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+     <form action="">
+     <label>Tipo de Documento</label>
+     <select name="tipoDocumento" required <%=null!=editar && editar ? "readonly":"" %> >
+		<option value=" ">Seleccione un Documento</option>
+		<option value="DNI"  >DNI</option>
+		<option value="PAS"  >PAS</option>
+		<option value="LE"  >LE</option>
+		<option value="CI"  >CI</option>
+	</select>
+     </form>
+</body>
+</html>

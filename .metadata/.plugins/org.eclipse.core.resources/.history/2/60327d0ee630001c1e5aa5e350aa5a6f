@@ -1,0 +1,7 @@
+package implementacion;
+
+import interfaces.PasajeroDAO;
+
+public class PasajeroDAOImpl implements PasajeroDAO<P, I, D, N, S> {
+
+}

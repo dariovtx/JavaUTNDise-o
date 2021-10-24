@@ -1,0 +1,11 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="tpUtn.hotel.entidades.Localidad"><rhs name\="tpUtn.hotel.entidades.Localidad"/></lhs><lhs name\="tpUtn.hotel.interfaces.PasajeroDAO"><rhs name\="tpUtn.hotel.implementacion.PasajeroDAOImpl"/></lhs><lhs name\="tpUtn.hotel.implementacion.ConexionDB"><rhs name\="tpUtn.hotel.implementacion.PasajeroDAOImpl"/></lhs><lhs name\="tpUtn.hotel.implementacion.PasajeroDAOImpl"><rhs name\="tpUtn.hotel.implementacion.PasajeroDAOImpl"/></lhs><lhs name\="tpUtn.hotel.gestionar.GestionarPasajero"><rhs name\="tpUtn.hotel.gestionar.GestionarPasajero"/></lhs><lhs name\="tpUtn.hotel.entidades.Pasajero"><rhs name\="tpUtn.hotel.entidades.Pasajero"/></lhs><lhs name\="tpUtn.hotel.entidades.Direccion"><rhs name\="tpUtn.hotel.entidades.Direccion"/></lhs><lhs name\="tpUtn.hotel.entidades.Provincia"><rhs name\="tpUtn.hotel.entidades.Provincia"/></lhs><lhs name\="tpUtn.hotel.entidades.Pais"><rhs name\="tpUtn.hotel.entidades.Pais"/></lhs></history>
+content_assist_number_of_computers=22
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=21
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

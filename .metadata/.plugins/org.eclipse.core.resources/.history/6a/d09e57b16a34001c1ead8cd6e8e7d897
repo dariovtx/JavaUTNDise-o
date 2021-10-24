@@ -1,0 +1,40 @@
+package tpUtn.hotel;
+
+
+import tpUtn.hotel.entidades.Direccion;
+import tpUtn.hotel.entidades.Localidad;
+import tpUtn.hotel.entidades.Pais;
+import tpUtn.hotel.entidades.Pasajero;
+import tpUtn.hotel.entidades.Provincia;
+import tpUtn.hotel.gestionar.GestionarPasajero;
+import tpUtn.hotel.implementacion.PasajeroDAOImpl;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	/*
+    	 * insert into pais (idPais, nombre, nacionalidad) value (0,"Argentina","Argentino");
+insert into provincia (idProvincia, nombre, pais) value (0,"santa fe",0);
+insert into localidad (idLocalidad, nombre, codigoPostal, provincia) value (0,"santa fe",3000,0);
+insert into direccion (idDireccion, calle, numero, departamento, piso, localidad ) value (0,"domingo silva",3333,2,2,0);
+
+    	 */
+    	GestionarPasajero gestionarPasajero = new GestionarPasajero();
+    	Pais pais = new Pais(0, "Argentina", "Argentino");
+    	Provincia provincia = new Provincia(0,"santa fe",pais);
+    	Localidad l = new Localidad(0,"santa fe",3000,provincia);
+    	Direccion d = new Direccion(3, "san martin", 2222, "A", 3,l );
+    	Pasajero p = new Pasajero(3, "Perez", "Carlos", "DNI", 35468, "20-35468-0", "no se", 2000-10-01, 44556, "CarPer@gmail.com", "Ingeniero", d, pais);
+    	
+    	gestionarPasajero.darDeAltaPasajero(p);
+    	for(Pasajero pasajero : gestionarPasajero.buscarPasajero("",0 , "Per","" ) ) {
+			System.out.println(pasajero);
+		}
+    	
+    }
+}

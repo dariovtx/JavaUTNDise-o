@@ -1,0 +1,18 @@
+package tpUtn.hotel;
+
+import java.util.Objects;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	Integer  arreglo = null ;
+
+    	
+    	System.out.println(Objects.isNull( arreglo));
+    }
+}

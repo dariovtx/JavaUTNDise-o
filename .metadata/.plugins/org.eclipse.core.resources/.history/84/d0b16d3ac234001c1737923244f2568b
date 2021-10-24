@@ -1,0 +1,24 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+       <form action="SvLogin" method="POST">
+       <label for="documentoTipo">Tipo de Documento</label>
+      <select name="tipoDocumento" >
+		<option value="DNI"  >DNI</option>
+		<option value="PAS"  >PAS</option>
+		<option value="LE"  >LE</option>
+		<option value="CI"  >CI</option>
+	</select>
+      <label for="password">Numero de Documento</label>
+       <input type="text" name="numeroDocumento" placeholder="">
+            <input type="submit" value="Log in"> 
+       </form>
+</body>
+</html>
