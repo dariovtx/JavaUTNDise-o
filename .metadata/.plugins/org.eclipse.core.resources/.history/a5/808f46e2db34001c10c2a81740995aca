@@ -58,7 +58,6 @@ public class PasajeroControlador extends HttpServlet {
 		sesion.setAttribute("numeroDocSesion", numeroDoc);
 		sesion.setAttribute("apellidoSesion", apellido);
 		sesion.setAttribute("tipoDocSesion", tipoDoc);
-		
 	}
 
 }
