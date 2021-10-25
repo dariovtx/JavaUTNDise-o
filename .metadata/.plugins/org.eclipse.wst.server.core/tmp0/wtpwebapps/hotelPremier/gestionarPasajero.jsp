@@ -8,14 +8,15 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/form.css">
+<link rel="stylesheet" href="css/button.css">
+<link rel="stylesheet" href="css/table.css">
 <title>Insert title here</title>
 </head>
-<%
-
-%>
 <body>
    <div>
-     <form action="pasajeroABM" method="POST">
+     <form action="pasajeroABM" method="get">
      <label for="tipoDocumento">Tipo de Documento</label>
      <select name="tipoDoc" required >
 		<option value="DNI"  >DNI</option>
@@ -29,10 +30,11 @@
 	<input type="text" name="apellido" required>
 	<label for="Nombre">Nombre</label>
 	<input type="text" name="nombre" required>
-	<input type="submit" value="Buscar"> 
+	<input class="success" type="submit" value="Buscar"> 
      </form>
      </div>
      <section>
+     <form action="pasajeroABM" method="post" >
      <table>
 	   <tr>
 	   <th>Tipo de Documento</th>
@@ -42,17 +44,14 @@
 	   <th>Accion</th>
 	   </tr>
 	   <%
-	   String tipoDoc = "nada";
-	   	int numeroDoc = -1;
-	   	String apellido = "";
-	   	String nombre = "";
+	   
 	   
 	   if(request.getParameter("tipoDoc")!=null){
-		    tipoDoc = request.getParameter("tipoDoc");
-		    numeroDoc = Integer.valueOf(request.getParameter("numeroDoc"));
-		    apellido = request.getParameter("apellidon");
-		    nombre = request.getParameter("nombren");
-		   }
+		   String tipoDoc = request.getParameter("tipoDoc");
+		   int numeroDoc = Integer.valueOf(request.getParameter("numeroDoc"));
+		   String apellido = request.getParameter("apellidon");
+		   String nombre = request.getParameter("nombren");
+		   
 		   	System.out.println(request.getParameter("tipoDocSesion"));
 		   	
 	   GestionarPasajero gestionarPasajero= new GestionarPasajero();
@@ -67,13 +66,26 @@
 	   <td><%=pasajero.getApellido() %></td>
 	   <td><%=pasajero.getNombre()%></td>
 	   <td>
-	   			
+	   		<input type="radio" value="<%=pasajero.getId() %>" name="idPasajero">
+	   </td>
+	   
+	   </tr>
+	   <%}}else {%> <tr>
+	   <td></td>
+	   <td></td>
+	   <td></td>
+	   <td></td>
+	   <td>
+	   		<input type="radio" value="" name="idPasajero">
 	   </td>
 	   
 	   </tr>
 	   <%} %>
-	</table>
-     
+	</table>  
+	
+	<input class="warning" type="button" onclick="location.href='index.jsp'" value="Cancelar" />
+	<input class="success" type="submit" value="Siguiente"> 
+     </form>
      </section>
 </body>
 </html>

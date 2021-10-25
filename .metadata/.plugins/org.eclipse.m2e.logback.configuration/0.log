@@ -2971,3 +2971,175 @@
 2021-10-24 16:32:21,782 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
 2021-10-24 16:32:21,790 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-10-24 16:32:21,791 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 17:11:45,281 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-10-24 17:12:06,717 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:12:07,832 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotel\src\main\resources
+2021-10-24 17:12:07,851 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:12:07,866 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotel\src\test\resources
+2021-10-24 17:12:09,272 [Worker-5: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/hotel: tpUtn:Hotel:0.0.1-SNAPSHOT with classifier  to /hotel/target/classes
+2021-10-24 17:12:09,319 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:12:09,319 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 17:12:09,335 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:12:09,336 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 17:13:21,220 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:13:21,220 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 17:13:21,283 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:13:21,284 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 17:14:16,724 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-10-24 17:14:34,474 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:14:34,486 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotel\src\main\resources
+2021-10-24 17:14:34,505 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:14:34,511 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotel\src\test\resources
+2021-10-24 17:14:35,697 [Worker-12: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/hotel: tpUtn:Hotel:0.0.1-SNAPSHOT with classifier  to /hotel/target/classes
+2021-10-24 17:14:35,752 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:14:35,765 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 17:14:35,790 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:14:35,790 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 17:21:21,449 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:21:21,449 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 17:21:21,554 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:21:21,555 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 17:24:28,650 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:24:28,650 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 17:24:28,664 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:24:28,664 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 17:26:18,614 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:26:18,626 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 17:26:18,640 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:26:18,641 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 17:33:29,854 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:33:29,893 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 17:33:29,907 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:33:29,907 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 17:36:49,262 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:36:49,293 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 17:36:49,311 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:36:49,311 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 17:38:45,740 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:38:45,750 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 17:38:45,760 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:38:45,760 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 17:38:49,671 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:38:49,681 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 17:38:49,696 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:38:49,696 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 17:40:56,370 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:40:56,397 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 17:40:56,412 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:40:56,412 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 17:41:24,779 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:41:24,791 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 17:41:24,804 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:41:24,804 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 17:43:59,604 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:43:59,647 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 17:43:59,661 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:43:59,661 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 17:55:00,087 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:55:00,111 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 17:55:00,131 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:55:00,131 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 17:55:09,442 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:55:09,453 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 17:55:09,465 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:55:09,465 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 17:56:35,592 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:56:35,614 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 17:56:35,626 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:56:35,626 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 17:57:08,483 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:57:08,501 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 17:57:08,515 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:57:08,515 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 17:58:38,134 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:58:38,152 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 17:58:38,164 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 17:58:38,164 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 18:02:32,466 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:02:32,491 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 18:02:32,500 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:02:32,500 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 18:05:37,991 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:05:38,012 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 18:05:38,024 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:05:38,024 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 18:11:30,068 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:11:30,084 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 18:11:30,094 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:11:30,094 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 18:11:56,130 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:11:56,143 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 18:11:56,153 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:11:56,153 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 18:13:06,074 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:13:06,085 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 18:13:06,095 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:13:06,095 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 18:14:46,343 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:14:46,360 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 18:14:46,375 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:14:46,376 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 18:15:34,379 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:15:34,391 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 18:15:34,404 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:15:34,404 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 18:16:22,074 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:16:22,091 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 18:16:22,106 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:16:22,106 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 18:18:04,119 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:18:04,132 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 18:18:04,144 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:18:04,145 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 18:19:21,538 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:19:21,591 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 18:19:21,606 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:19:21,606 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 18:19:50,351 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:19:50,364 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 18:19:50,374 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:19:50,374 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 18:20:45,864 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:20:45,873 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 18:20:45,883 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:20:45,883 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 18:23:01,501 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:23:01,517 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 18:23:01,530 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:23:01,531 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 18:24:14,302 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:24:14,317 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 18:24:14,332 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:24:14,332 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 18:24:29,596 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:24:29,620 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 18:24:29,633 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:24:29,634 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 18:27:17,987 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:27:18,005 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 18:27:18,022 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:27:18,023 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 18:28:04,294 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:28:04,295 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 18:28:04,306 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:28:04,306 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 18:30:18,183 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:30:18,183 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 18:30:18,203 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:30:18,204 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 18:32:03,905 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:32:03,906 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 18:32:03,923 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:32:03,923 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 18:33:24,952 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:33:24,952 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 18:33:24,969 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:33:24,970 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 18:34:41,085 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:34:41,085 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 18:34:41,096 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:34:41,097 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
+2021-10-24 18:35:25,333 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:35:25,333 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\main\resources
+2021-10-24 18:35:25,348 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-24 18:35:25,349 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DarioVictor\Desktop\UTN\TPDiseño\hotelPremier\src\test\resources
