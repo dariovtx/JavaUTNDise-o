@@ -77,31 +77,33 @@ public class PasajeroDAOImpl implements PasajeroDAO<Pasajero, Direccion, Pais, L
 	public boolean crearPasajero(Pasajero pasajero) {
 		
 		//sentencia SQL 
-	String query = "insert into pasajero (idPasajero, apellido, nombre,"
+	String query = "insert into pasajero ( apellido, nombre,"
 			+" tipoDoc, numeroDoc, cuit, posIVA, fecNacimiento, telefono, mail, ocupacion, nacionalidad, direccion)"
-						+"values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+						+"values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 	try {
 	 if(null == psInsertar) {
 	//nos conectamos a la base de datos 
 		psInsertar = getConexion().prepareStatement(query);
 	}
 	//cargamos la información que le enviaremos a la base de datos
-	 psInsertar.setInt(1, pasajero.getId());
-	 psInsertar.setString(2, pasajero.getApellido());
-	 psInsertar.setString(3, pasajero.getNombre());
-	 psInsertar.setString(4, pasajero.getTipoDocumento());
-	 psInsertar.setInt(5, pasajero.getDocumento());
-	 psInsertar.setString(6, pasajero.getCuit());
-	 psInsertar.setString(7, pasajero.getPosIVA());
-	 psInsertar.setDate(8,Date.valueOf( Fechas.getFechaSQLAString( pasajero.getFechaNacimiento() ) ));
-	 psInsertar.setInt(9, pasajero.getTelefono());
-	 psInsertar.setString(10,pasajero.getMail());
-	 psInsertar.setString(11, pasajero.getOcupacion());
+	// psInsertar.setInt(, pasajero.getId());
+	 psInsertar.setString(1, pasajero.getApellido());
+	 psInsertar.setString(2, pasajero.getNombre());
+	 psInsertar.setString(3, pasajero.getTipoDocumento());
+	 psInsertar.setInt(4, pasajero.getDocumento());
+	 psInsertar.setString(5, pasajero.getCuit());
+	 psInsertar.setString(6, pasajero.getPosIVA());
+	 psInsertar.setDate(7,Date.valueOf( Fechas.getFechaSQLAString( pasajero.getFechaNacimiento() ) ));
+	 psInsertar.setInt(8, pasajero.getTelefono());
+	 psInsertar.setString(9,pasajero.getMail());
+	 psInsertar.setString(10, pasajero.getOcupacion());
 	 
-	 psInsertar.setInt(12, pasajero.getPais().getIdPais());
-	 psInsertar.setInt(13, pasajero.getDireccion().getIdDireccion());
-	 if(crearDireccion(pasajero.getDireccion()))return psInsertar.executeUpdate() == 1;
-	
+	 psInsertar.setInt(11, pasajero.getPais().getIdPais());
+	 if(crearDireccion(pasajero.getDireccion())) {
+
+		 psInsertar.setInt(12, pasajero.getDireccion().getIdDireccion());
+		 return psInsertar.executeUpdate() == 1;
+	 }
 					
 	} catch (SQLException e) {
 					e.printStackTrace();
@@ -235,6 +237,27 @@ public class PasajeroDAOImpl implements PasajeroDAO<Pasajero, Direccion, Pais, L
 							e.printStackTrace();
 				}
 		return false;
+	}
+
+
+	@Override
+	public int devolverIdDireccion() {
+
+		String query= "select max(idDireccion) as maximo, idDireccion from direccion";
+		try {	
+		if(null == psBuscar) {
+				psBuscar = getConexion().prepareStatement(query);
+		}
+		
+		ResultSet resultado = psBuscar.executeQuery();
+		if(resultado.next()){
+		return resultado.getInt("maximo");	
+		}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return -1;
 	}
 
 

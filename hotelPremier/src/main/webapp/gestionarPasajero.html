@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+
+    </div>
+    <form action="" method="post">
+        <input type="text">
+    </form>
+    <section id="alumnos">
+        <h3>Lista de Alumnos</h3>
+        <table>
+           <tr>
+           <th>Documento</th>
+           <th>Descripcion</th>
+           <th>Fecha de Nacimiento</th>
+           <th>Activo</th>
+           <th>Accion</th>
+           </tr>
+           <%
+           AlumnoImplementacion alumnoImplementacion = new AlumnoImplementacion();
+           
+           for(Alumno alumno : alumnoImplementacion.listar()){
+                   
+           %>
+           <tr>
+           <td><%=alumno.getDocumento().getTipo() +" - "+ alumno.getDocumento().getNumero() %></td>
+           <td><%=alumno.getDescripcion() %></td>
+           <td><%= Fechas.getFechaAString(alumno.getFecha_nacimiento()) %></td>
+           <td><%=alumno.getActivo()? "SI" : "NO" %></td>
+           <td>
+           <button class="warning" onclick="window.location.href = 'alumno.jsp?tipoDocumento=<%=alumno.getDocumento().getTipo() %>&numeroDocumento=<%=alumno.getDocumento().getNumero() %>&editar=true'">Modificar</button>
+           <button class="danger" onclick="confirmacionBorrado('<%=alumno.getDocumento() %>')?window.location.href='alumnoABM?tipoDocumento=<%=alumno.getDocumento().getTipo()%>&numeroDocumento=<%=alumno.getDocumento().getNumero()%>':window.location.href='#'" >Eliminar</button>
+                            
+           </td>
+           
+           </tr>
+           <%} %>
+        </table>
+        
+        </section>
+    
+    
+</body>
+</html>

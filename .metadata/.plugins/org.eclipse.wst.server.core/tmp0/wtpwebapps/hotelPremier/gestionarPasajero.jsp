@@ -44,9 +44,9 @@
 	   <th>Accion</th>
 	   </tr>
 	   <%
+	   boolean bandera = false;
 	   
-	   
-	   if(request.getParameter("tipoDoc")!=null){
+	   if(request.getParameter("tipoDoc")!=null){bandera =true;
 		   String tipoDoc = request.getParameter("tipoDoc");
 		   int numeroDoc = Integer.valueOf(request.getParameter("numeroDoc"));
 		   String apellido = request.getParameter("apellidon");
@@ -84,7 +84,12 @@
 	</table>  
 	
 	<input class="warning" type="button" onclick="location.href='index.jsp'" value="Cancelar" />
+	<%if(bandera ==true){ %>
 	<input class="success" type="submit" value="Siguiente"> 
+	<%}else{ %>
+	<input class="success" type="button" onclick="location.href='altaPasajero.jsp'" value="Siguiente"> 
+	
+	<%} %>
      </form>
      </section>
 </body>

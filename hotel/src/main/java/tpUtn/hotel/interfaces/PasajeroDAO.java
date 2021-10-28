@@ -7,6 +7,7 @@ public interface PasajeroDAO < P, D, S, L, PV > {
 	boolean crearPasajero(P p);
 	
 	boolean crearDireccion(D d);
+	int devolverIdDireccion();
 	D buscarDireccion(int d);
 	S buscarPais(int id);
 	PV buscarProvincia(int id);
